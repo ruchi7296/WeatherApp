@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WeatherMap Api</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="input">
+      <input type="text" placeholder="Enter the city..." class="input_text" id="input_text" autocomplete="off">
+    </div>
+
+    <div class="weather-body">
+      <div id="weathercon">
+        <i class="fas fa-sun" style="color: #eccc68"></i>
+      </div>
+      <div class="location-details">
+        <div class="city" id="city"></div>
+        <div class="date" id="date"></div>
+      </div>
+
+      <div class="weather-status">
+        <div class="temp" id="temp"></div>
+        <div class="weather" id="weather"></div>
+        <div class="img"></div>
+      </div>
+
+      <div class="wave -one"></div>
+      <div class="wave -two"></div>
+      <div class="wave -three"></div>
+
+    </div>
+  </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
